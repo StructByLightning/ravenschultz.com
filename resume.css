@@ -1,0 +1,43 @@
+/*this file contains generic styles that are reused across the entire resume*/
+
+/*html, body, and main*/
+html{
+  font-size: 16px;
+}
+
+body{
+  background-color: var(--gray-1);
+  color: var(--gray-15);
+  font-size: var(--font-size-2);
+  font-family: Open Sans;
+  margin: var(--spacing-4);
+  padding: 0;
+}
+
+
+/*headers (not <header>, see header.css)*/
+h1, h2, h3, h4, h5, h6{
+  font-family: Montserrat;
+  font-weight: 100;
+  margin: 0;
+}
+
+h2{
+  font-size: var(--font-size-5);
+  border-top: 1px solid var(--gray-15);
+}
+
+/*section*/
+section{
+  min-height: 100vh;
+  width: 100%;
+}
+
+/*card*/
+
+
+
+hr{
+  margin-top: var(--spacing-2);
+  margin-bottom: var(--spacing-2);
+}
